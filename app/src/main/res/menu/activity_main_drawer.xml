@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+
+<!--        <item-->
+<!--            android:id="@+id/nav_home"-->
+<!--            android:icon="@drawable/c"-->
+<!--            android:title="Contact Us"-->
+<!--            android:menuCategory="secondary"-->
+<!--            />-->
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/c"
+            android:title="Contact Us"
+            android:menuCategory="secondary"
+            />
+        <item
+            android:id="@+id/nav_shop"
+            android:icon="@drawable/b"
+            android:title="Shop"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/s"
+            android:title="Sacco"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/b"
+            android:title="Wallet"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/b"
+            android:title="Profile"
+            android:menuCategory="secondary"/>
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/b"
+            android:title="Logout"
+            android:menuCategory="secondary"/>
+
+
+    </group>
+
+
+
+
+</menu>

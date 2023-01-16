@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.newsapp.ui.Home.HomeFragment"
+        android:label="DGE"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+    android:id="@+id/nav_contact"
+    android:name="com.example.newsapp.ui.Contact.ContactFragment"
+    android:label="DGE"
+    tools:layout="@layout/fragment_contact" />
+    <fragment
+        android:id="@+id/nav_shop"
+        android:name="com.example.newsapp.ui.Shop.ShopFragment"
+        android:label="Best offer"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.newsapp.ui.Gallery.GalleryFragment"
+        android:label="SACCO"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.newsapp.ui.Slideshow.SlideshowFragment"
+        android:label="Wallet"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.newsapp.ui.Profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.newsapp.ui.Logout.LogoutFragment"
+        android:label="logout"
+        tools:layout="@layout/fragment_logout" />
+
+</navigation>
